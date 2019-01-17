@@ -4,7 +4,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs
-Welcome to the repository for user assistance content for Dynamics 365 Business Central! This product is aimed at small and midsized businesses. This repo enables you to take the Business Central Help and customize it to suit your application. It also provides a way for you to actively contribute to the current Business Central content.  
+Welcome to the repository for user assistance content for Microsoft Dynamics 365 Business Central! This repo enables you to take the Business Central Help and customize it to suit your application. It also provides a way for you to actively contribute to the current Business Central content.  
 
 The content is available as markdown files (.md), where each file represents an article in the help. You can edit these markdown files, and then convert them to HTML files for application.
 
@@ -12,7 +12,7 @@ There are different repos in GitHub for the source content and each of the langu
 
 **NOTE**: Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
-For guidance about extending and customizing the Microsoft-provided content for Business Central, see [Configuring the Help Experience for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/configure-help). If you have any questions, you can contact the Dynamics SMB Content Experience (UA) team at nav-olh@microsoft.com.
+For guidance about extending and customizing the Microsoft-provided content for Business Central, see [Configuring the Help Experience for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/configure-help) and [Dynamics 365 Business Central User Assistance Model](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/user-assistance). If you have any questions, you can contact the Dynamics SMB Content Experience (UA) team at nav-olh@microsoft.com.
 
 ## Getting Started
 
@@ -28,6 +28,7 @@ For guidance about extending and customizing the Microsoft-provided content for 
 
     The help content is stored in the articles folder of the repo. Articles use a syntax for formatting text called GitHub Flavored Markdown. To learn more about working with markdown, see [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/).
 
+You can also find guidance for how to get started with MarkDown in the [Docs Contributor Guide](https://docs.microsoft.com/en-us/contribute/), which is published by the team that built the Docs.microsoft.com site where the Business Central team publishes their docs.
 
 ### Contributing
 
@@ -41,7 +42,7 @@ For example, to create a pull request to the dynamics365smb-docs repo by using G
 
 **NOTE**: Microsoft accepts pull requests to the dynamics365smb-docs repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
-You can also find tips an tricks in the general contribution guide for the Docs site at [https://docs.microsoft.com/en-us/contribute/](https://docs.microsoft.com/en-us/contribute/).
+You can also find tips and tricks in the general contribution guide for the Docs site at [https://docs.microsoft.com/en-us/contribute/](https://docs.microsoft.com/en-us/contribute/).
 
 
 ## Authoring in Markdown
@@ -155,7 +156,7 @@ For example, you want to link to payables-manage-payables.md from ui-work-genera
 - articles
     - ui-work-general-journals.md
 - ManagePayables
-    - conManagePayables.md
+    - payables-manage-payables.md
 
 Here is the link:
 ```[Manage Payables](ManagePayables/payables-manage-payables.md)```
@@ -218,6 +219,7 @@ The TOC structure of the TOC file is as follows:
 ### Standard Phrases
 All fields in Business Central have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
+For more information, see [Dynamics 365 Business Central User Assistance Model](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/user-assistance).
 
 ### Topic Titles
 - Use imperative verb form for step-based topics ("Pay vendors").
