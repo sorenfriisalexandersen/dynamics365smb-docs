@@ -55,8 +55,8 @@ For publishing to your own website, you can use tools such as [DocFx](https://do
 
     By default the files will be saved in the folder *c:/output*. The output folder is set in the NAVdocfx.json file. If you want to change this folder, do the following:
 
-    a. In the folder *[clone path]\dynamics365smb-docs\business-central\*, open the NAVdocfx.json file in your editor.  
-    b.  Set the "dest:" parameter to your output folder, and save the changes.  
+    a. In the folder where your local clone is, such as *C:\GitHub\dynamics365smb-docs\business-central*, open the NAVdocfx.json file in your preferred editor.  
+    b.  Set the **"dest:"** parameter to your output folder, and save the changes.  
 
 3.  Go to your desktop and open a command prompt.
 
@@ -64,9 +64,9 @@ For publishing to your own website, you can use tools such as [DocFx](https://do
 
 4.  Run the following command:
     ```
-    docfx "[clone path]\dynamics365smb-docs\business-central\NAVdocfx.json"'
+    docfx "c:\GitHub\dynamics365smb-docs\business-central\NAVdocfx.json"
     ```
-
+    
 The files are generated as .html files and stored in the specified output.
 
 The root of the repo contains files that are related to internal Microsoft processes, such as .openpublishing.build.ps1. These scripts are used to validate and preview content, but they rely on internal Microsoft resources that are not publicly available. 
