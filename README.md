@@ -44,6 +44,32 @@ For example, to create a pull request to the dynamics365smb-docs repo by using G
 
 You can also find tips and tricks in the general contribution guide for the Docs site at [https://docs.microsoft.com/en-us/contribute/](https://docs.microsoft.com/en-us/contribute/).
 
+## Building HTML files
+For publishing to your own website, you can use tools such as [DocFx](https://dotnet.github.io/docfx/). For example, if you want to preview your content locally, or if you want to publish to the legacy Microsoft Dynamics NAV Help Server. DocFX is an open source tool for converting markdown files. This section provides some guidance on how you can use DocFX to publish HTML files for the Dynamics NAV Hep Server.
+
+1.  Install DocFX on your computer.
+
+    For more information, see [DocFx](https://dotnet.github.io/docfx/).
+
+2.  Specify the output folder in which to store the generated HTML files.
+
+    By default the files will be saved in the folder *c:/output*. The output folder is set in the NAVdocfx.json file. If you want to change this folder, do the following:
+
+    a. In the folder *[clone path]\dynamics365smb-docs\business-central\*, open the NAVdocfx.json file in your editor.  
+    b.  Set the "dest:" parameter to your output folder, and save the changes.  
+
+3.  Go to your desktop and open a command prompt.
+
+3.  Go to the docfx installation folder.
+
+4.  Run the following command:
+    ```
+    docfx "[clone path]\dynamics365smb-docs\business-central\NAVdocfx.json"'
+    ```
+
+The files are generated as .html files and stored in the specified output.
+
+The root of the repo contains files that are related to internal Microsoft processes, such as .openpublishing.build.ps1. These scripts are used to validate and preview content, but they rely on internal Microsoft resources that are not publicly available. 
 
 ## Authoring in Markdown
 
