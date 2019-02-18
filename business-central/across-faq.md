@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 12/03/2018
+ms.date: 01/24/2019
 ms.author: edupont
 
 ---
@@ -23,6 +23,10 @@ If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, t
 ## Do I have to buy Office 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
 
+If the account you sign up with is a non-Office 365 work account (such as joe@mysolution.com), and you have an Office 365 subscription, then you can associate your domain (mysolution.com) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+
+If you do not have an Office 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
+
 ## What is the integration with Office 365 about?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
 
@@ -36,11 +40,11 @@ From the community home page, you can also find links to our blogs where you can
 
 Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
-## Is it possible to extend my 30-day “New Company” trial period?
-Yes. If you want to extend your trial, you should contact Microsoft in your country or region. To find the right phone number, see the list in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). The list refers to phone numbers for Dynamics CRM Online, but the same numbers apply to all Dynamics 365 apps.  
+## Can I extend my 30-day “New Company” trial period?
+Yes. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. For more information, see [Extend Your Trial Version](admin-extend-trial.md). To contact a Microsoft partner in your country or region now, see the list of phone numbers in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
 
 > [!NOTE]
-> It may take up to 2 business days to complete the trial extension process.  
+> It may take up to two business days to complete the trial extension process.  
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
@@ -75,5 +79,6 @@ If your Experience setting on the **Company Information** page is set to **Essen
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
+[Managing Users and Permissions](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
